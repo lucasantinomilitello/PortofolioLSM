@@ -282,9 +282,9 @@ section{
 
 .services-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   align-items: stretch;
-  gap: 5rem;
+  gap: 3rem;
   padding: 2rem;
 }
 
@@ -293,8 +293,8 @@ section{
   justify-content: center;
   align-items: flex-start;
   background-color: var(--main-color);
-  height: 600px;
-  border-radius: 3rem;
+  height: 420px;
+  border-radius: 2rem;
   cursor: pointer;
   border: 5px solid transparent;
   transition: 0.4s ease-in-out;
@@ -312,25 +312,26 @@ section{
   flex-direction: column;
   text-align: center;
   align-items: center;
-  padding: 5rem;
+  padding: 3rem;
 }
 
 .service-info h4 {
-  font-size: 4.5rem;
-  margin: 2rem 0;
+  font-size: 3rem;
+  margin: 1.5rem 0;
   font-weight: 800;
 }
 
 .service-info p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.7;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 .service-info i {
-  font-size: 8rem;
-  margin-bottom: 2rem;
+  font-size: 6rem;
+  margin-bottom: 1.5rem;
 }
 /*Fin de la seccion Servicios*/
 
@@ -530,6 +531,9 @@ section{
   }
   .service-info i{
     font-size: 5rem;
+  }
+  .service-info p{
+    font-size: 2rem;
   }
   .project-card h3{
     font-size: 4rem;
